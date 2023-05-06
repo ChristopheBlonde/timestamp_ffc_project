@@ -1,0 +1,12 @@
+{
+  "name": "timestamp_microservice",
+  "author": "Blonde Christophe",
+  "description": "example timestamp project FreeCodeCamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  }
+}
