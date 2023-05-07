@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/reset.css" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <script rel="text/javascript" src="../assets/script.js"></script>
+    <title>Timestamp Microservice</title>
+  </head>
+  <body>
+    <h1>Timestamp Microservice</h1>
+    <form id="form">
+      <label for="date" id="label-date" class="label-date">
+        Enter a date
+        <input type="text" id="date" class="input-date" />
+      </label>
+    </form>
+    <div id="error" class="error" style="display: none">Enter valid date !</div>
+    <div class="result-container" id="result-container" style="display: none">
+      <div id="result-date" class="result-date">
+        Result in unix number :
+        <div id="unix-date" class="result"></div>
+
+        <div id="result-date" class="result-date">
+          Result in UTC string :
+          <div id="utc-date" class="result"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
